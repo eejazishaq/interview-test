@@ -1,0 +1,26 @@
+{
+  "name": "Node-Express-Test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "build": "babel lib -d dist",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "joi": "^13.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.17.5"
+  }
+}
